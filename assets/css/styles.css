@@ -121,7 +121,7 @@
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url(/assets/images/desk.jpg);
+    background-image: url(./assets/images/desk.jpg);
     background-attachment: fixed; 
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -134,7 +134,7 @@
     overflow: hidden; 
     position: relative; 
     width: 100%;
-    background-image: url(/assets/images/projects.jpg); 
+    background-image: url(./assets/images/projects.jpg); 
     background-attachment: fixed; 
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -147,7 +147,7 @@
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url(/assets/images/curriculum.jpg);
+    background-image: url(./assets/images/curriculum.jpg);
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -162,7 +162,7 @@
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url(/assets/images/contact.jpg);
+    background-image: url(./assets/images/contact.jpg);
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
