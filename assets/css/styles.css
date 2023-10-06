@@ -84,7 +84,15 @@
     text-align:justify;
 }
 
-#parallax-world-of-ugg .flex {
+#parallax-world-of-ugg .flex-row {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#parallax-world-of-ugg .flex-column {
     display: flex;
     flex-direction: column;
     align-items: center;

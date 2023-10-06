@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
+    <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/card.css">
     <link rel="stylesheet" href="/assets/css/curriculum.css">
+    <link rel="stylesheet" href="/assets/css/contact-card.css">
 
     <!-- Font Awesome 5.15.4 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,7 +33,7 @@
         
         <section>
             <div class="block">
-                <div class="flex">
+                <div class="flex-column">
                     <img class="picture" src="/assets/images/perfil1.jpg"/>
                     <h3>Olá!</h3>
                     <h3>como vai você?</h3>
@@ -67,7 +69,11 @@
                     <div class="meta">
                     <div class="meta__inner">
                         <h4 class="card-title">Huddle</h4>
-                        <p class="card-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fugiat ad quae amet dignissimos laborum, repellat maxime ipsa ipsam nisi <a href="#">Saiba mais</a></p>
+                        <p class="card-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fugiat ad quae amet dignissimos laborum, repellat maxime ipsa ipsam nisi. </p>
+                        <div class="buttons">
+                            <a href="#" >Código</a>
+                            <a href="#" >Site</a>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -79,7 +85,11 @@
                     <div class="meta">
                     <div class="meta__inner">
                         <h4 class="card-title">Pokédex</h4>
-                        <p class="card-description" >Explore o fascinante mundo dos Pokémon em nosso site, alimentado pela poderosa API PokeAPI. Seja você um treinador experiente ou alguém que está apenas começando sua jornada, oferecemos uma experiência envolvente e informativa. <a href="#">Saiba mais</a></p>
+                        <p class="card-description" >Explore o fascinante mundo dos Pokémon em nosso site, alimentado pela poderosa API PokeAPI. Seja você um treinador experiente ou alguém que está apenas começando sua jornada, oferecemos uma experiência envolvente e informativa.</p>
+                        <div class="buttons">
+                            <a href="#" >Código</a>
+                            <a href="#" >Site</a>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -91,7 +101,11 @@
                     <div class="meta">
                     <div class="meta__inner">
                         <h4 class="card-title">Pesquisador GitHub</h4>
-                        <p class="card-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fugiat ad quae amet dignissimos laborum, repellat maxime ipsa ipsam nisi <a href="#">read more ...</a></p>
+                        <p class="card-description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fugiat ad quae amet dignissimos laborum, repellat maxime ipsa ipsam nisi.</p>
+                        <div class="buttons">
+                            <a href="#" >Código</a>
+                            <a href="#" >Site</a>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -105,7 +119,7 @@
         </section>
         
         <section class="block">
-            <div class="flex">
+            <div class="flex-column">
                 <div class="animation-curriculum">
                     <div class="folder-back"></div>
                     <div class="folder-front"></div>
@@ -117,6 +131,9 @@
                         <div class="curriculum-content"></div>
                     </div>
                 </div>
+                <a href="/assets/pdf/curriculo-franz.pdf" target="_blank">
+                    <button>Abrir PDF</button>
+                </a>
             </div>
         </section>
 
@@ -127,11 +144,41 @@
           </section>
           
           <section>
-            <div class="block">
-              <p><span class="first-character atw">W</span>hen the New York fashion community notices your brand, the world soon follows. The widespread love for UGG extended to Europe in the mid-2000's along with the stylish casual movement and demand for premium casual fashion. UGG boots and shoes were now seen walking the streets of London, Paris and Amsterdam with regularity. To meet the rising demand from new fans, UGG opened flagship stores in the UK and an additional location in Moscow. As the love spread farther East, concept stores were opened in Beijing, Shanghai and Tokyo. UGG Australia is now an international brand that is loved by all. This love is a result of a magical combination of the amazing functional benefits of sheepskin and the heightened emotional feeling you get when you slip them on your feet. In short, you just feel better all over when you wear UGG boots, slippers, and shoes.</p>
-              <p class="line-break margin-top-10"></p>
-              <p class="margin-top-10">In 2011, UGG will go back to its roots and focus on bringing the active men that brought the brand to life back with new styles allowing them to love the brand again as well. Partnering with Super Bowl champion and NFL MVP Tom Brady, UGG will invite even more men to feel the love the rest of the world knows so well. UGG will also step into the world of high fashion with UGG Collection. The UGG Collection fuses the timeless craft of Italian shoemaking with the reliable magic of sheepskin, bringing the luxurious feel of UGG to high end fashion. As the love for UGG continues to spread across the world, we have continued to offer new and unexpected ways to experience the brand. The UGG journey continues on and the love for UGG continues to spread.</p>
-            </div>
+            <!-- <div class="block"> -->
+                <div class="flex-row">
+                    <div class="contact-card">
+                      <div class="content">
+                        <p class="contact-title">GitHub</p>
+                      </div>
+                      <img src="https://images.unsplash.com/photo-1654277041218-84424c78f0ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2662&q=80" alt="imagem de Github" />
+                    </div>
+                  
+
+                  <div class="contact-card">
+                    <div class="content">
+                      <p class="contact-title">Linkedin</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80" alt="imagem de Linkedin" />
+                  </div>
+
+                  <div class="contact-card">
+                    <div class="content">
+                      <p class="contact-title">Whatsapp</p>
+                      <p class="description">+55 (18) 9 81356266</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80" alt="imagem de Whatsapp" />
+                  </div>
+
+                  <div class="contact-card">
+                    <div class="content">
+                      
+                      <p class="contact-title">Email</p>
+                      <p class="description">franz.hanl@hotmail.com</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1683117927786-f146451082fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80" alt="imagem de Whatsapp" />
+                  </div>
+                </div>
+            <!-- </div> -->
           </section>
           
         </div>
