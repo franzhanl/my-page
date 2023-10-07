@@ -1,48 +1,53 @@
+ 
+  .a-box {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+  }
+  
+  .img-container {
+      height: 230px;
+      width: 200px;
+      overflow: hidden;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+      
+  }
 
-.contact-card {
-    width: 350px;
-    height: 220px;
-    border-radius: 12px;
-    overflow: hidden;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 300ms;
+  .inner-skew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    /* overflow: hidden; */
+    /* padding: 0px; */
+    /* transform: skew(0deg, 13deg); */
+    /* font-size: 0px; */
+    margin: 30px 0px 0px 0px;
+    background: #c8c2c2;
+    height: 250px;
+    width: 200px;
 }
-
-.contact-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.contact-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.contact-card .content {
-    box-sizing: border-box;
-    width: 100%;
-    position: absolute;
-    padding: 30px 20px 20px 20px;
-    height: auto;
-    bottom: 0;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
-}
-
-.contact-card .description,
-.contact-card .contact-title {
-    margin: 0;
-}
-
-.contact-card .description {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.9);
-    margin-bottom: 4px;
-}
-
-.contact-card .contact-title {
-    font-size: 17px;
-    color: #fff;
-}
+  
+  .contact-icon i{
+        /* transform: skew(0deg, -13deg); */
+        /* height: 250px; */
+        color: white;
+        font-size: 150px;
+        /* margin: -35px 0px 0px -70px;  */
+  }
+  
+  .text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+  }
+  
+  .contact-title {
+    margin: 20px 0px 10px 0px;
+    font-size: 18px;
+  }
