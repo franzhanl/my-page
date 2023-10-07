@@ -99,13 +99,13 @@
     gap: 20px;
 }
 
-#parallax-world-of-ugg .picture {
+/* #parallax-world-of-ugg .picture {
     background-size: cover;
     height: 200px;
     width: 200px;
     border-radius: 50%;
     border: 10px solid rgb(215, 215, 215);
-}
+} */
 
 #parallax-world-of-ugg .icon {
     color: white;
@@ -121,7 +121,7 @@
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url(assets/images/desk.jpg);
+    background-image: url(https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80);
     background-attachment: fixed; 
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -134,7 +134,7 @@
     overflow: hidden; 
     position: relative; 
     width: 100%;
-    background-image: url(assets/images/projects.jpg); 
+    background-image: url(https://images.unsplash.com/photo-1527219525722-f9767a7f2884?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2673&q=80); 
     background-attachment: fixed; 
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -147,7 +147,7 @@
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url(assets/images/curriculum.jpg);
+    background-image: url(https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80);
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -162,7 +162,7 @@
     overflow: hidden; 
     position: relative; 
     width: 100%; 
-    background-image: url(assets/images/contact.jpg);
+    background-image: url(https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2674&q=80);
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 

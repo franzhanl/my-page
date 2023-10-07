@@ -41,7 +41,7 @@
     z-index: 2;
 }
 
-.curriculum-content::before, ::after{
+.curriculum-content::before, .curriculum-content::after{
     content: '';
     height: 15px; 
     border-radius: 5px;
