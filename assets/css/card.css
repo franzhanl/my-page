@@ -106,6 +106,10 @@
   font-weight: bold;
 }
 
+.buttons a:hover {
+  color: #fd6f9a;
+}
+
 .card:hover .meta{
   transform: translateY(5px);
 }
