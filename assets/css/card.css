@@ -61,7 +61,7 @@
   background: #fff;
   border: 1px solid #ccc;
   border-top: none;
-  min-height: 200px;
+  min-height: 270px;
 }
 
 .meta:after {
@@ -129,7 +129,7 @@
 @media screen and (max-width: 767px) {
   
   .card .intro {
-    margin-bottom: 190px;
+    margin-bottom: 200px;
   }
   
 }
